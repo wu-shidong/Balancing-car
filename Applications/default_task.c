@@ -21,6 +21,7 @@ void StartDefaultTask(void const * argument)
 		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,GPIO_PIN_SET);
     osDelay(250);
 		//Gcode
+		//Master code
   }
   /* USER CODE END StartDefaultTask */
 }
