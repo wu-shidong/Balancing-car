@@ -1,9 +1,9 @@
 stm32f411ceu6\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-stm32f411ceu6\cmsis_os.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f411ceu6\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 stm32f411ceu6\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 stm32f411ceu6\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-stm32f411ceu6\cmsis_os.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-stm32f411ceu6\cmsis_os.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f411ceu6\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f411ceu6\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 stm32f411ceu6\cmsis_os.o: ../Core/Inc/FreeRTOSConfig.h
 stm32f411ceu6\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 stm32f411ceu6\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
