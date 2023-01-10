@@ -12,11 +12,12 @@
 float pitch,roll,yaw; 
 short aacx,aacy,aacz;		
 short gyrox,gyroy,gyroz;	
+
 void inv_task(void const * argument)
 {
   /* USER CODE BEGIN inv_task */
   /* Infinite loop */
-
+  MPU6050_Init();
   while(1)
   {
 		if(mpu_dmp_get_data(&pitch,&roll,&yaw)==0)
