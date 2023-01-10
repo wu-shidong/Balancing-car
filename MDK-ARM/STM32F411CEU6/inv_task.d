@@ -2,8 +2,8 @@ stm32f411ceu6\inv_task.o: ..\Applications\inv_task.c
 stm32f411ceu6\inv_task.o: ..\Applications\inv_task.h
 stm32f411ceu6\inv_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 stm32f411ceu6\inv_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-stm32f411ceu6\inv_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-stm32f411ceu6\inv_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f411ceu6\inv_task.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f411ceu6\inv_task.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 stm32f411ceu6\inv_task.o: ../Core/Inc/FreeRTOSConfig.h
 stm32f411ceu6\inv_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 stm32f411ceu6\inv_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
