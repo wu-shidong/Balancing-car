@@ -17,9 +17,9 @@ void StartDefaultTask(void const * argument)
   while(1)
   {
     HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,GPIO_PIN_RESET);
-    osDelay(200);
+    osDelay(250);
 		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,GPIO_PIN_SET);
-    osDelay(200);
+    osDelay(250);
   }
   /* USER CODE END StartDefaultTask */
 }
