@@ -22,7 +22,7 @@ void StartDefaultTask(void const * argument)
     osDelay(250);
 		//Gcode
 		//Master code
-		//Laptop code
+		//Laptop code++
   }
   /* USER CODE END StartDefaultTask */
 }
