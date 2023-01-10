@@ -6,7 +6,6 @@
   * @param[in]      argument: NULL
   * @retval         none
  */
-
 	extern void StartDefaultTask(void const * argument);
 
 #endif

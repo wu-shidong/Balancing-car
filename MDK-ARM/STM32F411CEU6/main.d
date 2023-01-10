@@ -59,3 +59,5 @@ stm32f411ceu6\main.o: ../Components/Devices/OLED/oled.h
 stm32f411ceu6\main.o: ../Components/Devices/MPU6050/mpu6050.h
 stm32f411ceu6\main.o: ../Components/Devices/MPU6050/eMPL/inv_mpu.h
 stm32f411ceu6\main.o: ../Components/Devices/MPU6050/eMPL/inv_mpu_dmp_motion_driver.h
+stm32f411ceu6\main.o: ../Applications/default_task.h
+stm32f411ceu6\main.o: ../Applications/inv_task.h

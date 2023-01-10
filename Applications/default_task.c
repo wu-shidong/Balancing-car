@@ -1,5 +1,4 @@
 #include "default_task.h"
-
 #include "cmsis_os.h"
 #include "main.h"
 
@@ -17,8 +16,10 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   while(1)
   {
-    HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-    osDelay(500);
+    HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,GPIO_PIN_RESET);
+    osDelay(200);
+		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin,GPIO_PIN_SET);
+    osDelay(200);
   }
   /* USER CODE END StartDefaultTask */
 }

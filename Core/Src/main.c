@@ -26,12 +26,14 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include"bsp_usart.h"
-#include"pid.h"
-#include"oled.h"
-#include"mpu6050.h"
-#include"inv_mpu.h"
-#include"inv_mpu_dmp_motion_driver.h"
+#include "bsp_usart.h"
+#include "pid.h"
+#include "oled.h"
+#include "mpu6050.h"
+#include "inv_mpu.h"
+#include "inv_mpu_dmp_motion_driver.h"
+#include "default_task.h"
+#include "inv_task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,12 +97,10 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
-  MX_I2C1_Init();
   MX_TIM3_Init();
-  MX_TIM10_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   MPU6050_Init();
-  OLED_Init();
   USART_Init();
   /* USER CODE END 2 */
 

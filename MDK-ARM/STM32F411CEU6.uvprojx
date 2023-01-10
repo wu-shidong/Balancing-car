@@ -906,9 +906,14 @@
               <FilePath>..\Applications\default_task.c</FilePath>
             </File>
             <File>
-              <FileName>default_task.h</FileName>
+              <FileName>inv_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Applications\inv_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>inv_task.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Applications\default_task.h</FilePath>
+              <FilePath>..\Applications\inv_task.h</FilePath>
             </File>
           </Files>
         </Group>
