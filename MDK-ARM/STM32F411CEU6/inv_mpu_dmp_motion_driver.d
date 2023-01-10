@@ -41,5 +41,5 @@ stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/s
 stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ..\Components\Devices\MPU6050\eMPL\inv_mpu_dmp_motion_driver.h
 stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ..\Components\Devices\MPU6050\eMPL\dmpKey.h
 stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ..\Components\Devices\MPU6050\eMPL\dmpmap.h
-stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ..\Components\Devices\MPU6050\delay.h
+stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ../Components/Devices/MPU6050/delay.h
 stm32f411ceu6\inv_mpu_dmp_motion_driver.o: ../Core/Inc/usart.h

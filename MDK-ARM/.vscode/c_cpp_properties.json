@@ -15,11 +15,16 @@
                 "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Components\\Devices\\MPU6050",
                 "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Components\\Devices\\MPU6050\\eMPL",
                 "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Components\\Controller\\PID",
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
                 "D:\\Keil_v5\\ARM\\ARMCC\\include",
                 "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\MDK-ARM",
                 "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Core\\Src",
-                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Drivers\\STM32F4xx_HAL_Driver\\Src"
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Drivers\\STM32F4xx_HAL_Driver\\Src",
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Middlewares\\Third_Party\\FreeRTOS\\Source",
+                "e:\\Projects\\Microcontroller\\STM32\\Github\\Balanceing-Car\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

@@ -36,4 +36,4 @@ stm32f411ceu6\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_e
 stm32f411ceu6\mpu6050.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f411ceu6\mpu6050.o: ..\Components\Devices\MPU6050\delay.h
 stm32f411ceu6\mpu6050.o: ../Core/Inc/i2c.h
-stm32f411ceu6\mpu6050.o: ..\Components\Devices\MPU6050\eMPL\inv_mpu.h
+stm32f411ceu6\mpu6050.o: ../Components/Devices/MPU6050/eMPL/inv_mpu.h
